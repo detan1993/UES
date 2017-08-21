@@ -25,6 +25,6 @@ namespace UES.Models
         public string address { get; set; }
 
         [Required]
-        public string region { get; set; }
+        public string region { get; set; } //test
     }
 }
