@@ -7,6 +7,7 @@ using System.Web.Mvc;  //for selecting list of item from drop down list
 
 namespace UES.Models
 {
+    //Done by jiongyi :))
     public class CreateRestaurantModel
     {
         [Required]
