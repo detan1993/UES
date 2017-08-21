@@ -6,6 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace UES.Models
 {
+    //Done by jiongyi :))
     public class CreateRestaurantModel
     {
         [Required]
