@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;  // a must to import
+using System.Web.Mvc;  //for selecting list of item from drop down list
 
 namespace UES.Models
 {
+    //Done by jiongyi :))
     public class CreateRestaurantModel
     {
         [Required]
@@ -24,6 +26,17 @@ namespace UES.Models
 
         [Required]
         public string address { get; set; }
+
+
+      
+        public IEnumerable<SelectListItem> dropDownListRegion { get; set; }
+
+        [Required]
+        public int dropDownListRegionId
+        {
+            get;set;
+        }
+
 
         [Required]
         public string region { get; set; }   //need to do in drob down list
