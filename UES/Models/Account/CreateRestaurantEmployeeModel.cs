@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
+using System.Web.Mvc;
 
 namespace TestProject.Models.Account
 {
     public class CreateRestaurantEmployeeModel
     {
+        public IEnumerable<SelectListItem> dropDownListRestaurant { get; set; }
+
         [Required]
         public int restaurantId { get; set; }
 

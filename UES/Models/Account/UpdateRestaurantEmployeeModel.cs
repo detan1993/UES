@@ -8,18 +8,19 @@ namespace TestProject.Models.Account
 {
     public class UpdateRestaurantEmployeeModel
     {
-        
+        [Required]
         public string employeeName { get; set; }
 
-        
+        [Required]
         public string email { get; set; }
 
-        
+        [Required]
         public string phoneContactNum { get; set; }
 
-        
+        [Required]
         public string homeContactNum { get; set; }
 
+        [Required]
         public string status { get; set; }
 
     }

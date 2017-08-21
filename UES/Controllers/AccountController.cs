@@ -23,5 +23,11 @@ namespace UES.Controllers
 
             return View();
         }
+
+        public ActionResult createRestaurantEmployee()
+        {
+            CreateRestaurantEmployee createrestaurantemployee = new CreateRestaurantEmployee();
+            return View();
+        }
     }
 }
